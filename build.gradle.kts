@@ -18,18 +18,18 @@ dependencies {
     implementation(kotlin("reflect"))
 
     /* Javalin Libraries */
-    implementation("io.javalin:javalin:3.5.0")
-    implementation("org.slf4j:slf4j-simple:1.7.25")
+    implementation("io.javalin:javalin:3.7.0")
+    implementation("org.slf4j:slf4j-simple:1.7.30")
 
     /* Dependency Injection Libraries */
     implementation("com.authzee.kotlinguice4:kotlin-guice:1.2.0")
     implementation("com.google.inject:guice:4.2.2")
 
     /* Other */
-    implementation("com.google.code.gson:gson:2.8.5")
+    implementation("com.google.code.gson:gson:2.8.6")
 
     /* Test framework */
-    implementation("org.junit.jupiter:junit-jupiter-engine:5.5.2")
+    implementation("org.junit.jupiter:junit-jupiter-engine:5.6.0")
 }
 
 tasks.withType<KotlinCompile> {
